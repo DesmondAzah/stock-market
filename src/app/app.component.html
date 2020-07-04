@@ -32,6 +32,6 @@
 </div>
 
 <div class="content" role="main">
-  <app-stock-item style="margin-left:-320px;" [stock]="stockObj"></app-stock-item>
+  <app-stock-item style="margin-left:-320px;" [stock]="stockObj" (toggleFavorite)="onToggleFavorite($event)"></app-stock-item>
 </div>
 <router-outlet></router-outlet>
